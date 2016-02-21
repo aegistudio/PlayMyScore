@@ -1,0 +1,14 @@
+name: PlayMyScore
+main: net.aegistudio.pms.PlayMyScore
+version: 0.01-beta
+author: aegistudio
+commands:
+  pms:
+    description: Use play my score commands.
+    usage: /pms [subcommand] [parameters]
+    permission: pmscore.command
+    permission-message: You don't have permission to do that!
+permissions:
+  pms.command:
+    description: Grants player to issue play my score command.
+    default: true
